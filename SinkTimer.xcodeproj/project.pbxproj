@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E088D7E24305E4600E7E52D /* CommercialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E088D7D24305E4600E7E52D /* CommercialViewController.swift */; };
+		6E088D8024305E6600E7E52D /* HouseHoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E088D7F24305E6600E7E52D /* HouseHoldViewController.swift */; };
+		6E088D8624308DD700E7E52D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E088D8524308DD700E7E52D /* StatsViewController.swift */; };
+		6EB660E6243045B4009A376A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB660E5243045B4009A376A /* AppDelegate.swift */; };
+		6EB660E8243045B4009A376A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB660E7243045B4009A376A /* SceneDelegate.swift */; };
+		6EB660EA243045B4009A376A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB660E9243045B4009A376A /* ViewController.swift */; };
+		6EB660ED243045B4009A376A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB660EB243045B4009A376A /* Main.storyboard */; };
+		6EB660F0243045B4009A376A /* SinkTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EB660EE243045B4009A376A /* SinkTimer.xcdatamodeld */; };
+		6EB660F2243045B5009A376A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB660F1243045B5009A376A /* Assets.xcassets */; };
+		6EB660F5243045B5009A376A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB660F3243045B5009A376A /* LaunchScreen.storyboard */; };
+		6EB66100243045B5009A376A /* SinkTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB660FF243045B5009A376A /* SinkTimerTests.swift */; };
+		6EB6610B243045B5009A376A /* SinkTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB6610A243045B5009A376A /* SinkTimerUITests.swift */; };
+		6EB6611924304847009A376A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EB6611824304846009A376A /* GoogleService-Info.plist */; };
+		6EB6611B24304BC5009A376A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB6611A24304BC5009A376A /* HomeViewController.swift */; };
+		8F4DA2D106E1D5F8CA1B736B /* Pods_SinkTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863023CBE58946485B833491 /* Pods_SinkTimerUITests.framework */; };
+		B27AAC2B5ACF7637B6C58079 /* Pods_SinkTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EC245DFACA4A80E0810511 /* Pods_SinkTimer.framework */; };
+		CD36F93BD92E95F780E8B297 /* Pods_SinkTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF7AB93C4A246B85DEEBF7B /* Pods_SinkTimerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB660FC243045B5009A376A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB660DA243045B4009A376A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB660E1243045B4009A376A;
+			remoteInfo = SinkTimer;
+		};
+		6EB66107243045B5009A376A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB660DA243045B4009A376A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB660E1243045B4009A376A;
+			remoteInfo = SinkTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AF7AB93C4A246B85DEEBF7B /* Pods_SinkTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SinkTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4088A66FD07BE0777F5C91 /* Pods-SinkTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinkTimer.release.xcconfig"; path = "Target Support Files/Pods-SinkTimer/Pods-SinkTimer.release.xcconfig"; sourceTree = "<group>"; };
+		3D18C859FDF9094BF4F79C06 /* Pods-SinkTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinkTimer.debug.xcconfig"; path = "Target Support Files/Pods-SinkTimer/Pods-SinkTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		52F68DAFD3F950616D1B8B97 /* Pods-SinkTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinkTimerUITests.release.xcconfig"; path = "Target Support Files/Pods-SinkTimerUITests/Pods-SinkTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E088D7D24305E4600E7E52D /* CommercialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialViewController.swift; sourceTree = "<group>"; };
+		6E088D7F24305E6600E7E52D /* HouseHoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseHoldViewController.swift; sourceTree = "<group>"; };
+		6E088D8524308DD700E7E52D /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		6EB660E2243045B4009A376A /* SinkTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinkTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB660E5243045B4009A376A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EB660E7243045B4009A376A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EB660E9243045B4009A376A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EB660EC243045B4009A376A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EB660EF243045B4009A376A /* SinkTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SinkTimer.xcdatamodel; sourceTree = "<group>"; };
+		6EB660F1243045B5009A376A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB660F4243045B5009A376A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EB660F6243045B5009A376A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB660FB243045B5009A376A /* SinkTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinkTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB660FF243045B5009A376A /* SinkTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkTimerTests.swift; sourceTree = "<group>"; };
+		6EB66101243045B5009A376A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB66106243045B5009A376A /* SinkTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinkTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB6610A243045B5009A376A /* SinkTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkTimerUITests.swift; sourceTree = "<group>"; };
+		6EB6610C243045B5009A376A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB6611824304846009A376A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6EB6611A24304BC5009A376A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		78EC245DFACA4A80E0810511 /* Pods_SinkTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SinkTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		863023CBE58946485B833491 /* Pods_SinkTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SinkTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		876FBA1205BC8565627CC350 /* Pods-SinkTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinkTimerTests.release.xcconfig"; path = "Target Support Files/Pods-SinkTimerTests/Pods-SinkTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A28842C2C80DD7512F2EC9DF /* Pods-SinkTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinkTimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-SinkTimerUITests/Pods-SinkTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF8BF4AE99B47987B69DE7ED /* Pods-SinkTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinkTimerTests.debug.xcconfig"; path = "Target Support Files/Pods-SinkTimerTests/Pods-SinkTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB660DF243045B4009A376A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AAC2B5ACF7637B6C58079 /* Pods_SinkTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB660F8243045B5009A376A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD36F93BD92E95F780E8B297 /* Pods_SinkTimerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB66103243045B5009A376A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4DA2D106E1D5F8CA1B736B /* Pods_SinkTimerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB660D9243045B4009A376A = {
+			isa = PBXGroup;
+			children = (
+				6EB660E4243045B4009A376A /* SinkTimer */,
+				6EB660FE243045B5009A376A /* SinkTimerTests */,
+				6EB66109243045B5009A376A /* SinkTimerUITests */,
+				6EB660E3243045B4009A376A /* Products */,
+				BD9EDA9DE23CCCB6A8075B24 /* Pods */,
+				F7962F00A4A906297C8C1708 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB660E3243045B4009A376A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB660E2243045B4009A376A /* SinkTimer.app */,
+				6EB660FB243045B5009A376A /* SinkTimerTests.xctest */,
+				6EB66106243045B5009A376A /* SinkTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB660E4243045B4009A376A /* SinkTimer */ = {
+			isa = PBXGroup;
+			children = (
+				6EB660E5243045B4009A376A /* AppDelegate.swift */,
+				6EB660E7243045B4009A376A /* SceneDelegate.swift */,
+				6EB660E9243045B4009A376A /* ViewController.swift */,
+				6EB660EB243045B4009A376A /* Main.storyboard */,
+				6E088D8524308DD700E7E52D /* StatsViewController.swift */,
+				6E088D7F24305E6600E7E52D /* HouseHoldViewController.swift */,
+				6E088D7D24305E4600E7E52D /* CommercialViewController.swift */,
+				6EB6611A24304BC5009A376A /* HomeViewController.swift */,
+				6EB660F1243045B5009A376A /* Assets.xcassets */,
+				6EB660F3243045B5009A376A /* LaunchScreen.storyboard */,
+				6EB660F6243045B5009A376A /* Info.plist */,
+				6EB660EE243045B4009A376A /* SinkTimer.xcdatamodeld */,
+				6EB6611824304846009A376A /* GoogleService-Info.plist */,
+			);
+			path = SinkTimer;
+			sourceTree = "<group>";
+		};
+		6EB660FE243045B5009A376A /* SinkTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB660FF243045B5009A376A /* SinkTimerTests.swift */,
+				6EB66101243045B5009A376A /* Info.plist */,
+			);
+			path = SinkTimerTests;
+			sourceTree = "<group>";
+		};
+		6EB66109243045B5009A376A /* SinkTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB6610A243045B5009A376A /* SinkTimerUITests.swift */,
+				6EB6610C243045B5009A376A /* Info.plist */,
+			);
+			path = SinkTimerUITests;
+			sourceTree = "<group>";
+		};
+		BD9EDA9DE23CCCB6A8075B24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D18C859FDF9094BF4F79C06 /* Pods-SinkTimer.debug.xcconfig */,
+				3C4088A66FD07BE0777F5C91 /* Pods-SinkTimer.release.xcconfig */,
+				BF8BF4AE99B47987B69DE7ED /* Pods-SinkTimerTests.debug.xcconfig */,
+				876FBA1205BC8565627CC350 /* Pods-SinkTimerTests.release.xcconfig */,
+				A28842C2C80DD7512F2EC9DF /* Pods-SinkTimerUITests.debug.xcconfig */,
+				52F68DAFD3F950616D1B8B97 /* Pods-SinkTimerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7962F00A4A906297C8C1708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78EC245DFACA4A80E0810511 /* Pods_SinkTimer.framework */,
+				0AF7AB93C4A246B85DEEBF7B /* Pods_SinkTimerTests.framework */,
+				863023CBE58946485B833491 /* Pods_SinkTimerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB660E1243045B4009A376A /* SinkTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB6610F243045B5009A376A /* Build configuration list for PBXNativeTarget "SinkTimer" */;
+			buildPhases = (
+				FA93641764BD2B736D49FD7A /* [CP] Check Pods Manifest.lock */,
+				6EB660DE243045B4009A376A /* Sources */,
+				6EB660DF243045B4009A376A /* Frameworks */,
+				6EB660E0243045B4009A376A /* Resources */,
+				43781350335E6E567CCDC69E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinkTimer;
+			productName = SinkTimer;
+			productReference = 6EB660E2243045B4009A376A /* SinkTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB660FA243045B5009A376A /* SinkTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB66112243045B5009A376A /* Build configuration list for PBXNativeTarget "SinkTimerTests" */;
+			buildPhases = (
+				2C0480D1CB27557A223E133E /* [CP] Check Pods Manifest.lock */,
+				6EB660F7243045B5009A376A /* Sources */,
+				6EB660F8243045B5009A376A /* Frameworks */,
+				6EB660F9243045B5009A376A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB660FD243045B5009A376A /* PBXTargetDependency */,
+			);
+			name = SinkTimerTests;
+			productName = SinkTimerTests;
+			productReference = 6EB660FB243045B5009A376A /* SinkTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB66105243045B5009A376A /* SinkTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB66115243045B5009A376A /* Build configuration list for PBXNativeTarget "SinkTimerUITests" */;
+			buildPhases = (
+				1BD2B89992B09D44C5D80198 /* [CP] Check Pods Manifest.lock */,
+				6EB66102243045B5009A376A /* Sources */,
+				6EB66103243045B5009A376A /* Frameworks */,
+				6EB66104243045B5009A376A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB66108243045B5009A376A /* PBXTargetDependency */,
+			);
+			name = SinkTimerUITests;
+			productName = SinkTimerUITests;
+			productReference = 6EB66106243045B5009A376A /* SinkTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB660DA243045B4009A376A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Austin Rath";
+				TargetAttributes = {
+					6EB660E1243045B4009A376A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6EB660FA243045B5009A376A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6EB660E1243045B4009A376A;
+					};
+					6EB66105243045B5009A376A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6EB660E1243045B4009A376A;
+					};
+				};
+			};
+			buildConfigurationList = 6EB660DD243045B4009A376A /* Build configuration list for PBXProject "SinkTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB660D9243045B4009A376A;
+			productRefGroup = 6EB660E3243045B4009A376A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB660E1243045B4009A376A /* SinkTimer */,
+				6EB660FA243045B5009A376A /* SinkTimerTests */,
+				6EB66105243045B5009A376A /* SinkTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB660E0243045B4009A376A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB6611924304847009A376A /* GoogleService-Info.plist in Resources */,
+				6EB660F5243045B5009A376A /* LaunchScreen.storyboard in Resources */,
+				6EB660F2243045B5009A376A /* Assets.xcassets in Resources */,
+				6EB660ED243045B4009A376A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB660F9243045B5009A376A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB66104243045B5009A376A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BD2B89992B09D44C5D80198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SinkTimerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0480D1CB27557A223E133E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SinkTimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43781350335E6E567CCDC69E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SinkTimer/Pods-SinkTimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SinkTimer/Pods-SinkTimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SinkTimer/Pods-SinkTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA93641764BD2B736D49FD7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SinkTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB660DE243045B4009A376A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB6611B24304BC5009A376A /* HomeViewController.swift in Sources */,
+				6EB660F0243045B4009A376A /* SinkTimer.xcdatamodeld in Sources */,
+				6E088D8624308DD700E7E52D /* StatsViewController.swift in Sources */,
+				6E088D7E24305E4600E7E52D /* CommercialViewController.swift in Sources */,
+				6E088D8024305E6600E7E52D /* HouseHoldViewController.swift in Sources */,
+				6EB660EA243045B4009A376A /* ViewController.swift in Sources */,
+				6EB660E6243045B4009A376A /* AppDelegate.swift in Sources */,
+				6EB660E8243045B4009A376A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB660F7243045B5009A376A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB66100243045B5009A376A /* SinkTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB66102243045B5009A376A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB6610B243045B5009A376A /* SinkTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB660FD243045B5009A376A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB660E1243045B4009A376A /* SinkTimer */;
+			targetProxy = 6EB660FC243045B5009A376A /* PBXContainerItemProxy */;
+		};
+		6EB66108243045B5009A376A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB660E1243045B4009A376A /* SinkTimer */;
+			targetProxy = 6EB66107243045B5009A376A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EB660EB243045B4009A376A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB660EC243045B4009A376A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EB660F3243045B5009A376A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB660F4243045B5009A376A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB6610D243045B5009A376A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EB6610E243045B5009A376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB66110243045B5009A376A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D18C859FDF9094BF4F79C06 /* Pods-SinkTimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999PLS5M48;
+				INFOPLIST_FILE = SinkTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinMatteo.SinkTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EB66111243045B5009A376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4088A66FD07BE0777F5C91 /* Pods-SinkTimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999PLS5M48;
+				INFOPLIST_FILE = SinkTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinMatteo.SinkTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EB66113243045B5009A376A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8BF4AE99B47987B69DE7ED /* Pods-SinkTimerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999PLS5M48;
+				INFOPLIST_FILE = SinkTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinMatteo.SinkTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinkTimer.app/SinkTimer";
+			};
+			name = Debug;
+		};
+		6EB66114243045B5009A376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876FBA1205BC8565627CC350 /* Pods-SinkTimerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999PLS5M48;
+				INFOPLIST_FILE = SinkTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinMatteo.SinkTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinkTimer.app/SinkTimer";
+			};
+			name = Release;
+		};
+		6EB66116243045B5009A376A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28842C2C80DD7512F2EC9DF /* Pods-SinkTimerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999PLS5M48;
+				INFOPLIST_FILE = SinkTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinMatteo.SinkTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinkTimer;
+			};
+			name = Debug;
+		};
+		6EB66117243045B5009A376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F68DAFD3F950616D1B8B97 /* Pods-SinkTimerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999PLS5M48;
+				INFOPLIST_FILE = SinkTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinMatteo.SinkTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinkTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB660DD243045B4009A376A /* Build configuration list for PBXProject "SinkTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB6610D243045B5009A376A /* Debug */,
+				6EB6610E243045B5009A376A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB6610F243045B5009A376A /* Build configuration list for PBXNativeTarget "SinkTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB66110243045B5009A376A /* Debug */,
+				6EB66111243045B5009A376A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB66112243045B5009A376A /* Build configuration list for PBXNativeTarget "SinkTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB66113243045B5009A376A /* Debug */,
+				6EB66114243045B5009A376A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB66115243045B5009A376A /* Build configuration list for PBXNativeTarget "SinkTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB66116243045B5009A376A /* Debug */,
+				6EB66117243045B5009A376A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6EB660EE243045B4009A376A /* SinkTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6EB660EF243045B4009A376A /* SinkTimer.xcdatamodel */,
+			);
+			currentVersion = 6EB660EF243045B4009A376A /* SinkTimer.xcdatamodel */;
+			path = SinkTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6EB660DA243045B4009A376A /* Project object */;
+}
