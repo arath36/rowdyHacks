@@ -4,9 +4,9 @@
 #include <FirebaseArduino.h>
 #include <ArduinoJson.h>
 #define WIFI_SSID "YDJZB"
-#define WIFI_PASSWORD "dynamicairplane1"
+#define WIFI_PASSWORD "PRIVATE"
 #define FIREBASE_HOST "sink-timer.firebaseio.com"
-#define FIREBASE_AUTH "7okfLTUu50zLUxjda1Vg3PWunm8CtLkihzfds9TK"
+#define FIREBASE_AUTH "PRIVATE"
 
 
 // Define NTP Client to get time
